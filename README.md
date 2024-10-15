@@ -2,7 +2,7 @@
 
 Este projeto aplica os conceitos de POO aos formulários _HTML_, utilizando o _BotCity_ para resolver o seguinte problema: "Criar uma hierarquia de classes que representem diferentes tipos de formulários (FormBase, FormularioContato, FormularioLogin). Utilizar BotCity para preencher automaticamente diferentes tipos de formulários em uma página web."
 
-### Explicação
+## Explicação
 
 Foram implementadas três classes: _FormBase_, _FormContato_ e _FormLogin_. As duas últimas herdam de _FormBase_. No FormBase o método construtor declara um _WebBot_ que então é passado para as subclasses, não necessitando então utilizar um _WebBot_ na automação _bot.py_
 
