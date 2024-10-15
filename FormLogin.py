@@ -27,6 +27,6 @@ class FormLogin(FormBase):
     def enviar(self):
         btn = self.bot.find_element('/html/body/div/form/input[3]', By.XPATH)
         btn.click()
-        self.bot.wait(500)
+        self.bot.wait(3000)
     
         
