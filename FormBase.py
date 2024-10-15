@@ -1,4 +1,4 @@
-from botcity.web import WebBot, Browser, By
+from botcity.web import WebBot, Browser
 from webdriver_manager.chrome import ChromeDriverManager
 
 class FormBase:
