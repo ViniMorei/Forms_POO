@@ -53,7 +53,8 @@ def main():
         print(ex)
     
     finally:
-        pass
+        contato.bot.stop_browser()
+        login.bot.stop_browser()
 
 
 def not_found(label):
